@@ -1,3 +1,3 @@
 function showAlert(){
-    alert(al)
+    alert(alert message)
 }
