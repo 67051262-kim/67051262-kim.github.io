@@ -3,15 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AI Profile Card | Abdulhakim</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>67051262 Abdulhakim Sama</h1>
-    <img src="images/kim.jpg" alt="">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
     <div class="container">
-    <button onclick="showAlert()"> <h1>Action</h1></button>
+        <div class="card">
+            <div class="profile-header">
+                <div class="img-glow">
+                    <img src="images/kim.jpg" alt="Abdulhakim" class="profile-img">
+                </div>
+                <h1 class="name">Abdulhakim Sama</h1>
+                <div class="badge">AI SYSTEM ACTIVE</div>
+                <p class="id-tag">67051262</p>
+            </div>
+
+            <hr class="divider">
+
+            <div class="content-section">
+                <h3><span class="dot"></span> BIOGRAPHY</h3>
+                <p class="bio-text">
+                    นักศึกษาสาขาฟิสิกส์อุตสาหกรรมและวิศวกรรมระบบไอโอทีและสารสนเทศ (สองปริญญา) 
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="label">MAJOR</span>
+                        <span class="value">CS / IT</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="label">STATUS</span>
+                        <span class="value">ACTIVE</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="label">YEAR</span>
+                        <span class="value">2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h3><span class="dot"></span> CORE SKILLS</h3>
+                <div class="skill-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">AI Modeling</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <div class="social-links">
+                    <a href="https://github.com/67051262-kim" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                    </a>
+    
+                    <a href="https://www.facebook.com/YOUR_FACEBOOK" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_.hxk1m_/" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <button class="ai-btn" onclick="showAlert()">
+                    <span>INITIALIZE ACTION</span>
+                </button>
+            </div>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
